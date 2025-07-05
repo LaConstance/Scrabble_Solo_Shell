@@ -20,7 +20,7 @@ chmod +x Scrabble.sh
 ./Scrabble.sh
 ```
 
-Note: Le script fonctionne uniquement dans un terminal compatible ANSI (Linux, macOS, ou WSL sur Windows).
+Note: Le script fonctionne uniquement dans un terminal compatible ANSI (Linux, ou WSL sur Windows).
 
 ---
 
@@ -34,16 +34,16 @@ Vous pouvez :
 - ou appuyer sur Entrée pour passer le tour et tirer de nouvelles lettres
 
 Le mot est accepté s’il :
- - est dans le dictionnaire (Dictionnaire.txt)
+ - est dans le dictionnaire (`Dictionnaire.txt`)
  - peut être formé avec les lettres du tirage
 
-Le score est calculé selon les valeurs des lettres (cf. Lettres.txt)
+Le score est calculé selon les valeurs des lettres (cf. `lettres.txt`)
 Le score de chaque mot est affiché et mis à chaque fin de tour
 
 À la fin :
  - un récapitulatif est affiché
- - un fichier highscore.txt est mis à jour si le record est battu ou s'il n'y avait aucun score existant
- - possibilité de relancer une partie
+ - un fichier `meilleur.txt` est mis à jour si le record est battu ou s'il n'y avait aucun score existant
+ - et la possibilité de relancer une partie
 
 ---
 
