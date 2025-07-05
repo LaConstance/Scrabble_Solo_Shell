@@ -30,14 +30,15 @@ Le jeu se joue sur 10 tours.
 À chaque tour, 7 lettres sont tirées aléatoirement depuis le sac.
 
 Vous pouvez :
-taper un mot avec les lettres proposées ou appuyer sur Entrée pour passer le tour et tirer de nouvelles lettres.
+- taper un mot avec les lettres proposées
+- ou appuyer sur Entrée pour passer le tour et tirer de nouvelles lettres
 
 Le mot est accepté s’il :
  - est dans le dictionnaire (Dictionnaire.txt)
  - peut être formé avec les lettres du tirage
 
 Le score est calculé selon les valeurs des lettres (cf. Lettres.txt)
-Le score de chaque mot est affiché à chaque fin de tour
+Le score de chaque mot est affiché et mis à chaque fin de tour
 
 À la fin :
  - un récapitulatif est affiché
