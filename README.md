@@ -8,7 +8,7 @@ Un mini-jeu de Scrabble en ligne de commande (Bash), jouable en solo avec systè
 
 - `Scrabble.sh` : script principal du jeu
 - `Dictionnaire.txt` : liste de mots valides (un par ligne)
-- `Lettres.txt` : lettres du jeu, avec valeur et fréquence, format `Lettre,Points,Fréquence`
+- `lettres.txt` : lettres du jeu, avec valeur et fréquence, format `Lettre,Points,Fréquence`
 - `meilleur.txt` : score maximal enregistré
 
 ---
@@ -41,7 +41,6 @@ Le score de chaque mot est affiché à chaque fin de tour
 
 À la fin :
  - un récapitulatif est affiché
- - les jokers utilisés sont comptés
  - un fichier highscore.txt est mis à jour si le record est battu ou s'il n'y avait aucun score existant
  - possibilité de relancer une partie
 
@@ -49,7 +48,7 @@ Le score de chaque mot est affiché à chaque fin de tour
 
 ## Structure des fichiers
 
-`Lettres.txt` (extrait)
+`lettres.txt` (extrait)
 
 ```
 A,1,9
