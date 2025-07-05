@@ -18,3 +18,52 @@ Un mini-jeu de Scrabble en ligne de commande (Bash), jouable en solo avec systè
 ```bash
 chmod +x Scrabble.sh
 ./Scrabble.sh
+```
+
+Note: Le script fonctionne uniquement dans un terminal compatible ANSI (Linux, macOS, ou WSL sur Windows).
+
+---
+
+## Règles du jeu
+
+Le jeu se joue sur 10 tours.
+À chaque tour, 7 lettres sont tirées aléatoirement depuis le sac.
+
+Vous pouvez :
+taper un mot avec les lettres proposées
+appuyer sur Entrée pour passer le tour et tirer de nouvelles lettres
+Le mot est accepté s’il :
+ - est dans le dictionnaire (Dictionnaire.txt)
+ - peut être formé avec les lettres du tirage
+
+Le score est calculé selon les valeurs des lettres (cf. Lettres.txt)
+Le score de chaque mot est affiché à chaque fin de tour
+
+À la fin :
+ - un récapitulatif est affiché
+ - les jokers utilisés sont comptés
+ - un fichier highscore.txt est mis à jour si le record est battu ou s'il n'y avait aucun score existant
+ - possibilité de relancer une partie
+
+---
+
+## Structure des fichiers
+
+`Lettres.txt` (extrait)
+
+```
+A,1,9
+B,3,2
+C,3,2
+D,2,4
+E,1,15
+```
+
+`Dictionnaire.txt` (extrait)
+
+```
+arbre
+chat
+route
+mot
+```
