@@ -1,5 +1,7 @@
 # Scrabble Solitaire en Shell
 
+**Projet réalisé dans le cadre du cours "Programmation Système" à l'Université Paris-Dauphine – Note obtenue : 16/20**
+
 Un mini-jeu de Scrabble en ligne de commande (Bash), jouable en solo avec système de tirage, validation de mots, score et gestion du sac de lettres.
 
 ---
